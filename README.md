@@ -1,5 +1,4 @@
 # 🛍️ Product Management Microservice
-
 A full-stack enterprise-grade product management system built with Spring Boot and modern web technologies. Features role-based access control, RESTful APIs, and an intuitive user interface for managing product inventories.
 
 ![Java](https://img.shields.io/badge/Java-25-orange?style=flat-square&logo=openjdk)
@@ -20,7 +19,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 
 
 ## ✨ Features
-
 ### 🔐 Role-Based Access Control
 - **Admin Users**: Full CRUD operations (Create, Read, Update, Delete)
 - **Regular Users**: Read-only access to product catalog
@@ -50,48 +48,46 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 - Unit and integration tests
 
 ## 📸 Screenshots
-
 ### Landing Page
 <img width="1366" height="768" alt="LandingPage" src="https://github.com/user-attachments/assets/1db4189b-1396-45c5-bd20-efee14c979ad" />
-*Clean and intuitive landing page with login interface*
+**Clean and intuitive landing page with login interface**
 
 ### Admin Dashboard
 <img width="1366" height="768" alt="adminPrivileges" src="https://github.com/user-attachments/assets/6d12fb1d-69ae-42d8-ba73-58d691a7f3fb" />
-*Admin users have full access to CRUD operations*
+**Admin users have full access to CRUD operations**
 
 ### Adding New Products
 <img width="1366" height="768" alt="addingNewProd" src="https://github.com/user-attachments/assets/1faa5802-551b-4ab5-99f8-bf9832fcf47c" />
-*Simple form with validation for adding products*
+**Simple form with validation for adding products**
 
 ### Form Validation
 <img width="1366" height="768" alt="notAllowNULL" src="https://github.com/user-attachments/assets/dbbc5bc5-909a-43d8-b53a-64cc5c58bef4" />
-*Built-in validation prevents invalid data entry*
+**Built-in validation prevents invalid data entry**
 
 ### Update Product
 <img width="1366" height="768" alt="updateProd" src="https://github.com/user-attachments/assets/7dc386c3-765c-4050-aec8-632cf4687f88" />
-*Edit existing products with pre-filled forms*
+**Edit existing products with pre-filled forms**
 
 ### Delete Product
 <img width="1366" height="768" alt="delProd" src="https://github.com/user-attachments/assets/372f6df9-e620-4a4b-809b-42ea8bcf8ec9" />
-*Confirmation dialog for safe deletion*
+**Confirmation dialog for safe deletion**
 
 ### Search Functionality
 <img width="1366" height="768" alt="searchbyID" src="https://github.com/user-attachments/assets/0efd6197-286b-4fc5-95cc-802ce46a6980" />
-*Quick search to find products by ID*
+**Quick search to find products by ID**
 
 ### Sorting Options
-(<img width="1366" height="768" alt="sortByName" src="https://github.com/user-attachments/assets/597af8f3-0968-4ec1-9bf2-da552a76caf5" />
-*Sort products alphabetically*
+<img width="1366" height="768" alt="sortByName" src="https://github.com/user-attachments/assets/597af8f3-0968-4ec1-9bf2-da552a76caf5" />
+**Sort products alphabetically**
 
 <img width="1366" height="768" alt="sortbyPrice" src="https://github.com/user-attachments/assets/8d0c61e2-3a0e-46ed-901e-415907c61b0c" />
-*Sort products by price range*
+**Sort products by price range**
 
 ### User View
 <img width="1366" height="768" alt="userGeneral" src="https://github.com/user-attachments/assets/76222df8-c55c-4915-bab6-1c2b0dd0b8eb" />
-*Regular users can view products but cannot modify*
+**Regular users can view products but cannot modify**
 
 ## 🛠️ Tech Stack
-
 ### Backend
 - **Java 25** - Latest Java features
 - **Spring Boot 3.5.7** - Application framework
@@ -113,9 +109,7 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 - **Mockito** - Mocking framework
 - **Spring Security Test** - Security testing
 
-
 ## 🏗️ Architecture
-
 ```
 ┌─────────────────┐
 │   Web Browser   │
@@ -157,7 +151,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 
 
 ## 🚀 Getting Started
-
 ### Prerequisites
 - Java 25 or higher
 - Maven 3.6+
@@ -165,7 +158,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 - IDE (IntelliJ IDEA, Eclipse, or VS Code)
 
 ### Installation
-
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/ProdMgmtMicroservice.git
@@ -173,7 +165,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
    ```
 
 2. **Configure Database**
-   
    Update `src/main/resources/application.yml`:
    ```yaml
    spring:
@@ -184,7 +175,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
    ```
 
 3. **Create Database Schema**
-   
    Run the following SQL in your Oracle database:
    ```sql
    CREATE TABLE products (
@@ -213,7 +203,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
    - API Docs: http://localhost:8080/v3/api-docs
 
 ### Default Credentials
-
 | Role  | Username | Password  | Permissions |
 |-------|----------|-----------|-------------|
 | Admin | `admin`  | `admin123`| Full CRUD   |
@@ -221,7 +210,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 
 
 ## 📚 API Documentation
-
 ### Endpoints
 
 | Method | Endpoint | Access | Description |
@@ -233,7 +221,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 | `DELETE` | `/api/v1/products/{id}` | ADMIN | Delete product |
 
 ### Request/Response Examples
-
 #### Create Product
 ```http
 POST /api/v1/products
@@ -265,7 +252,6 @@ Content-Type: application/json
 Visit http://localhost:8080/swagger-ui.html for interactive API testing with Swagger UI.
 
 ## 🔒 Security
-
 ### Authentication
 - **HTTP Basic Authentication** for quick development
 - Credentials encoded with BCrypt
@@ -318,7 +304,6 @@ void testCreateProduct() {
 ```
 
 ## 📁 Project Structure
-
 ```
 ProdMgmtMicroservice/
 ├── src/
@@ -359,7 +344,6 @@ ProdMgmtMicroservice/
 ```
 
 ## 👤 Author
-
 **Anuvab Munshi**
 - GitHub: [A-Munshi](https://github.com/A-Munshi)
 - LinkedIn: [Anuvab Munshi](www.linkedin.com/in/anuvab-munshi)
