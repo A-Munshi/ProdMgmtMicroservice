@@ -7,15 +7,15 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 
 
 ## 📋 Table of Contents
-- [Features](#-features)
-- [Screenshots](#-screenshots)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [Getting Started](#-getting-started)
-- [API Documentation](#-api-documentation)
-- [Security](#-security)
-- [Testing](#-testing)
-- [Project Structure](#-project-structure)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [Getting Started](#getting-started)
+- [API Documentation](#api-documentation)
+- [Security](#security)
+- [Testing](#testing)
+- [Project Structure](#project-structure)
 
 
 ## ✨ Features
@@ -29,7 +29,6 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 
 
 ## 📸 Screenshots
-| Column 1 | Column 2 |
 |---|---|
 | **Landing Page**<br><img width="1366" height="768" alt="LandingPage" src="https://github.com/user-attachments/assets/1d3b096c-a5fe-468b-a44d-8684a9eacb94" /> | **Admin Dashboard**<br><img width="1366" height="768" alt="adminPrivileges" src="https://github.com/user-attachments/assets/42872df9-24ec-41d9-81e0-7a3ec0d88d77" /> |
 | **Add Product**<br><img width="1366" height="768" alt="addingNewProd" src="https://github.com/user-attachments/assets/71e36cd4-88ff-451d-8c68-05dfaf0a09da" /> | **Form Validation**<br><img width="1366" height="768" alt="notAllowNULL" src="https://github.com/user-attachments/assets/db0a1150-0c0a-46d8-812a-033f05968633" /> |
@@ -37,7 +36,7 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 | **Search by ID**<br><img width="1366" height="768" alt="searchbyID" src="https://github.com/user-attachments/assets/7787ebbe-6927-4ac9-b696-2a8dc2b7722c" /> | **Sort by Name**<br><img width="1366" height="768" alt="sortByName" src="https://github.com/user-attachments/assets/6d058f12-f8b0-4dfc-aaa1-9b60e2a97ac1" /> |
 | **Sort by Price**<br><img width="1366" height="768" alt="sortbyPrice" src="https://github.com/user-attachments/assets/88436c94-2e02-4f96-ae90-69859904f3cc" /> | **User View**<br><img width="1366" height="768" alt="userGeneral" src="https://github.com/user-attachments/assets/47639d1f-1a86-4570-bb1a-5da859988c2a" /> |
 
-## 🛠️ Tech Stack
+## <a name="tech-stack"></a>🛠️ Tech Stack
 | Layer | Technology |
 |-------|-------------|
 | **Backend** | Java 25, Spring Boot 3.5.7, Spring Security, Spring Data JPA, Hibernate |
@@ -46,37 +45,24 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 | **Testing & Docs** | JUnit 5, Mockito, Spring Security Test, Swagger/OpenAPI |
 | **Build Tool** | Maven |
 
-## 🏗️ Architecture
+## <a name="architecture"></a>🏗️ Architecture
 ```
-┌─────────────────┐
-│   Web Browser   │
-│  (HTML/CSS/JS)  │
-└────────┬────────┘
+     Web Browser  (HTML/CSS/JS) 
          │ HTTP/REST
          ▼
-┌─────────────────┐
-│ Spring Security │ ◄── Authentication & Authorization
-└────────┬────────┘
+  Spring Security ◄── Authentication & Authorization
          │
          ▼
-┌─────────────────┐
-│   Controllers   │ ◄── REST API Endpoints
-└────────┬────────┘
+    Controllers   ◄── REST API Endpoints
          │
          ▼
-┌─────────────────┐
-│    Services     │ ◄── Business Logic
-└────────┬────────┘
+      Services    ◄── Business Logic
          │
          ▼
-┌─────────────────┐
-│  Repositories   │ ◄── Data Access Layer
-└────────┬────────┘
+    Repositories  ◄── Data Access Layer
          │
          ▼
-┌─────────────────┐
-│ Oracle Database │
-└─────────────────┘
+  Oracle Database
 ```
 
 ### Design Patterns Used
