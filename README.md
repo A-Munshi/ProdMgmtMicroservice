@@ -1,5 +1,5 @@
 # 🛍️ Product Management Microservice
-A full-stack enterprise-grade product management system built with Spring Boot and modern web technologies. Features role-based access control, RESTful APIs, and an intuitive user interface for managing product inventories.
+An enterprise-grade full-stack **Product Management System** built with **Spring Boot** and **modern web technologies**, featuring **role-based access control**, secure REST APIs, and a sleek responsive UI.
 
 ![Java](https://img.shields.io/badge/Java-25-orange?style=flat-square&logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.7-brightgreen?style=flat-square&logo=spring)
@@ -19,105 +19,32 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 
 
 ## ✨ Features
-### 🔐 Role-Based Access Control
-- **Admin Users**: Full CRUD operations (Create, Read, Update, Delete)
-- **Regular Users**: Read-only access to product catalog
-- Secure authentication with Spring Security
+- **Role-Based Access Control** — Admin (CRUD) & User (Read-only)
+- **RESTful API Architecture** using Spring Boot + Hibernate
+- **Validation & Exception Handling** with Spring Validation
+- **Oracle Database Integration** (via JPA)
+- **Modern UI** built with HTML, CSS, and Vanilla JS
+- **Swagger / OpenAPI Docs** for API exploration
+- **JUnit + Mockito** testing suite
 
-### 🎯 Product Management
-- ✅ Add new products with validation
-- ✅ Update existing product details
-- ✅ Delete products with confirmation
-- ✅ Search products by ID
-- ✅ Sort by name or price (ascending/descending)
-- ✅ View detailed product information
-
-### 🎨 Modern Web Interface
-- Responsive design (mobile, tablet, desktop)
-- Intuitive card-based layout
-- Real-time form validation
-- Dynamic sorting and filtering
-- Clean and professional UI
-
-### 🔧 Backend Features
-- RESTful API architecture
-- JPA/Hibernate ORM with Oracle Database
-- DTO pattern for data transfer
-- Comprehensive exception handling
-- OpenAPI/Swagger documentation
-- Unit and integration tests
 
 ## 📸 Screenshots
-### Landing Page
-<img width="1366" height="768" alt="LandingPage" src="https://github.com/user-attachments/assets/1db4189b-1396-45c5-bd20-efee14c979ad" />
+| Landing | Admin | Add Product | Validation | Update |
+|----------|--------|-------------|-------------|---------|
+| ![Landing](https://github.com/user-attachments/assets/1db4189b-1396-45c5-bd20-efee14c979ad) | ![Admin](https://github.com/user-attachments/assets/6d12fb1d-69ae-42d8-ba73-58d691a7f3fb) | ![Add](https://github.com/user-attachments/assets/1faa5802-551b-4ab5-99f8-bf9832fcf47c) | ![Validation](https://github.com/user-attachments/assets/dbbc5bc5-909a-43d8-b53a-64cc5c58bef4) | ![Update](https://github.com/user-attachments/assets/7dc386c3-765c-4050-aec8-632cf4687f88) |
 
-**Clean and intuitive landing page with login interface**
-
-### Admin Dashboard
-<img width="1366" height="768" alt="adminPrivileges" src="https://github.com/user-attachments/assets/6d12fb1d-69ae-42d8-ba73-58d691a7f3fb" />
-
-**Admin users have full access to CRUD operations**
-
-### Adding New Products
-<img width="1366" height="768" alt="addingNewProd" src="https://github.com/user-attachments/assets/1faa5802-551b-4ab5-99f8-bf9832fcf47c" />
-
-**Simple form with validation for adding products**
-
-### Form Validation
-<img width="1366" height="768" alt="notAllowNULL" src="https://github.com/user-attachments/assets/dbbc5bc5-909a-43d8-b53a-64cc5c58bef4" />
-
-**Built-in validation prevents invalid data entry**
-
-### Update Product
-<img width="1366" height="768" alt="updateProd" src="https://github.com/user-attachments/assets/7dc386c3-765c-4050-aec8-632cf4687f88" />
-
-**Edit existing products with pre-filled forms**
-
-### Delete Product
-<img width="1366" height="768" alt="delProd" src="https://github.com/user-attachments/assets/372f6df9-e620-4a4b-809b-42ea8bcf8ec9" />
-
-**Confirmation dialog for safe deletion**
-
-### Search Functionality
-<img width="1366" height="768" alt="searchbyID" src="https://github.com/user-attachments/assets/0efd6197-286b-4fc5-95cc-802ce46a6980" />
-
-**Quick search to find products by ID**
-
-### Sorting Options
-<img width="1366" height="768" alt="sortByName" src="https://github.com/user-attachments/assets/597af8f3-0968-4ec1-9bf2-da552a76caf5" />
-
-**Sort products alphabetically**
-
-<img width="1366" height="768" alt="sortbyPrice" src="https://github.com/user-attachments/assets/8d0c61e2-3a0e-46ed-901e-415907c61b0c" />
-
-**Sort products by price range**
-
-### User View
-<img width="1366" height="768" alt="userGeneral" src="https://github.com/user-attachments/assets/76222df8-c55c-4915-bab6-1c2b0dd0b8eb" />
-
-**Regular users can view products but cannot modify**
+| Delete | Search | Sort (Name) | Sort (Price) | User |
+|----------|--------|-------------|-------------|---------|
+| ![Del](https://github.com/user-attachments/assets/372f6df9-e620-4a4b-809b-42ea8bcf8ec9) | ![Search](https://github.com/user-attachments/assets/0efd6197-286b-4fc5-95cc-802ce46a6980) | ![Sort Name](https://github.com/user-attachments/assets/597af8f3-0968-4ec1-9bf2-da552a76caf5) | ![Sort Price](https://github.com/user-attachments/assets/8d0c61e2-3a0e-46ed-901e-415907c61b0c) | ![User](https://github.com/user-attachments/assets/76222df8-c55c-4915-bab6-1c2b0dd0b8eb) |
 
 ## 🛠️ Tech Stack
-### Backend
-- **Java 25** - Latest Java features
-- **Spring Boot 3.5.7** - Application framework
-- **Spring Data JPA** - Data persistence
-- **Spring Security** - Authentication & authorization
-- **Spring Validation** - Input validation
-- **Oracle Database** - Enterprise database
-- **Maven** - Dependency management
-
-### Frontend
-- **HTML5** - Structure
-- **CSS3** - Styling with modern design
-- **Vanilla JavaScript** - Dynamic functionality
-- **Fetch API** - RESTful API communication
-
-### Documentation & Testing
-- **SpringDoc OpenAPI** - API documentation
-- **JUnit 5** - Unit testing
-- **Mockito** - Mocking framework
-- **Spring Security Test** - Security testing
+| Layer | Technology |
+|-------|-------------|
+| **Backend** | Java 25, Spring Boot 3.5.7, Spring Security, Spring Data JPA, Hibernate |
+| **Frontend** | HTML5, CSS3, Vanilla JS, Fetch API |
+| **Database** | Oracle 21c |
+| **Testing & Docs** | JUnit 5, Mockito, Spring Security Test, Swagger/OpenAPI |
+| **Build Tool** | Maven |
 
 ## 🏗️ Architecture
 ```
@@ -315,41 +242,22 @@ void testCreateProduct() {
 
 ## 📁 Project Structure
 ```
-ProdMgmtMicroservice/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/prodservice/
-│   │   │   ├── config/
-│   │   │   │   ├── OpenApiConfig.java       # Swagger configuration
-│   │   │   │   └── SecurityConfig.java      # Security setup
-│   │   │   ├── controller/
-│   │   │   │   └── ProductController.java   # REST endpoints
-│   │   │   ├── dto/
-│   │   │   │   └── ProductDTO.java          # Data transfer object
-│   │   │   ├── exception/
-│   │   │   │   ├── ApiExceptionHandler.java # Global exception handler
-│   │   │   │   └── ResourceNotFoundException.java
-│   │   │   ├── model/
-│   │   │   │   └── Product.java             # JPA entity
-│   │   │   ├── repository/
-│   │   │   │   └── ProductRepository.java   # Data access
-│   │   │   ├── service/
-│   │   │   │   ├── ProductService.java      # Service interface
-│   │   │   │   └── impl/
-│   │   │   │       └── ProductServiceImpl.java
-│   │   │   └── ProdServiceApplication.java  # Main application
-│   │   └── resources/
-│   │       ├── static/
-│   │       │   ├── index.html               # Frontend UI
-│   │       │   ├── styles.css               # Styling
-│   │       │   └── app.js                   # JavaScript logic
-│   │       ├── application.yml              # Configuration
-│   │       └── data.sql                     # Sample data
-│   └── test/
-│       └── java/com/example/prodservice/
-│           └── service/
-│               └── ProductServiceImplTest.java
-├── pom.xml                                   # Maven dependencies
+ProdMgmtMicroservice/src/
+├── main/
+│   ├── java/com/example/prodservice/
+│   │   ├── config/                      # Security & Swagger configs
+│   │   ├── controller/                  # REST endpoints
+│   │   ├── dto/                         # Data Transfer Objects
+│   │   ├── exception/                   # Global exception handling
+│   │   ├── model/                       # JPA Entities
+│   │   ├── repository/                  # DAO Layer
+│   │   ├── service/                     # Business Logic
+│   │   └── ProdServiceApplication.java  # Main application
+│   └── resources/static/                # Frontend (HTML, CSS, JS)
+│       ├── application.yml              # Configuration
+│       └── data.sql                     # Sample data
+└── test/                                # Testing
+├── pom.xml                              # Maven dependencies
 └── README.md
 ```
 
