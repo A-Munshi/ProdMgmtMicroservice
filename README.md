@@ -29,6 +29,7 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 
 
 ## 📸 Screenshots
+| Column 1 | Column 2 |
 |---|---|
 | **Landing Page**<br><img width="1366" height="768" alt="LandingPage" src="https://github.com/user-attachments/assets/1d3b096c-a5fe-468b-a44d-8684a9eacb94" /> | **Admin Dashboard**<br><img width="1366" height="768" alt="adminPrivileges" src="https://github.com/user-attachments/assets/42872df9-24ec-41d9-81e0-7a3ec0d88d77" /> |
 | **Add Product**<br><img width="1366" height="768" alt="addingNewProd" src="https://github.com/user-attachments/assets/71e36cd4-88ff-451d-8c68-05dfaf0a09da" /> | **Form Validation**<br><img width="1366" height="768" alt="notAllowNULL" src="https://github.com/user-attachments/assets/db0a1150-0c0a-46d8-812a-033f05968633" /> |
