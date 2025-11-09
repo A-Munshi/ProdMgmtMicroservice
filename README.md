@@ -68,11 +68,13 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 ### Design Patterns: MVC, DTO, Repository, Dependency Injection.  
 <details>
 <summary><strong>Expanded diagram & notes (click to open)</strong></summary>
+
 - **MVC (Model-View-Controller)** - Separation of concerns
 - **DTO (Data Transfer Object)** - Decoupling entities from API
 - **Repository Pattern** - Data access abstraction
 - **Dependency Injection** - Loose coupling
 - **Builder Pattern** - User creation in security config
+
 </details>
 
 ## 🚀 Getting Started
