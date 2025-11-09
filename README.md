@@ -66,13 +66,15 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
   Oracle Database
 ```
 
-### Design Patterns Used
+### Design Patterns: MVC, DTO, Repository, Dependency Injection.  
+<details>
+<summary><strong>Expanded diagram & notes (click to open)</strong></summary>
 - **MVC (Model-View-Controller)** - Separation of concerns
 - **DTO (Data Transfer Object)** - Decoupling entities from API
 - **Repository Pattern** - Data access abstraction
 - **Dependency Injection** - Loose coupling
 - **Builder Pattern** - User creation in security config
-
+</details>
 
 ## 🚀 Getting Started
 ### Prerequisites
@@ -88,8 +90,7 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
    cd ProdMgmtMicroservice
    ```
 
-2. **Configure Database**
-   Update `src/main/resources/application.yml`:
+2. **Configure Database** — edit `src/main/resources/application.yml` and set your Oracle credentials:
    ```yaml
    spring:
      datasource:
@@ -98,8 +99,7 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
        password: your_password
    ```
 
-3. **Create Database Schema**
-   Run the following SQL in your Oracle database:
+3. **Create Database Schema** (run in Oracle):
    ```sql
    CREATE TABLE products (
        id NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -111,13 +111,9 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
    );
    ```
 
-4. **Build the project**
+4. **Build and Run**
    ```bash
    mvn clean install
-   ```
-
-5. **Run the application**
-   ```bash
    mvn spring-boot:run
    ```
 
@@ -144,8 +140,7 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 | `PUT` | `/api/v1/products/{id}` | ADMIN | Update product |
 | `DELETE` | `/api/v1/products/{id}` | ADMIN | Delete product |
 
-### Request/Response Examples
-#### Create Product
+**Quick example (create)**:
 ```http
 POST /api/v1/products
 Authorization: Basic YWRtaW46YWRtaW4xMjM=
@@ -159,18 +154,7 @@ Content-Type: application/json
   "quantity": 50
 }
 ```
-
-#### Response
-```json
-{
-  "id": 1,
-  "name": "Laptop",
-  "sku": "LAP-001",
-  "description": "High-performance laptop",
-  "price": 999.99,
-  "quantity": 50
-}
-```
+> For interactive testing open: `http://localhost:8080/swagger-ui/index.html`. Full request/response specs are available there.
 
 ### Interactive API Documentation
 Visit http://localhost:8080/swagger-ui.html for interactive API testing with Swagger UI.
@@ -198,34 +182,28 @@ Visit http://localhost:8080/swagger-ui.html for interactive API testing with Swa
 
 ## 🧪 Testing
 
-### Run Tests
-```bash
-# Run all tests
-mvn test
+- **Unit tests**: Service layer (JUnit + Mockito)
+- **Integration tests**: Repository layer
+- **Security Tests**: Authentication & authorization
+- Run:
 
-# Run with coverage
-mvn test jacoco:report
+```bash
+mvn test
 ```
 
-### Test Coverage
-- **Unit Tests**: Service layer with Mockito
-- **Integration Tests**: Repository layer
-- **Security Tests**: Authentication & authorization
+<details>
+<summary>Example test</summary>
 
-### Example Test
 ```java
 @Test
 void testCreateProduct() {
-    ProductDTO dto = new ProductDTO();
-    dto.setName("Test Product");
-    dto.setSku("TEST-001");
-    
-    ProductDTO result = productService.createProduct(dto);
-    
-    assertNotNull(result.getId());
-    assertEquals("Test Product", result.getName());
+  ProductDTO dto = new ProductDTO("Test", "TEST-001", "desc", BigDecimal.valueOf(9.99), 5);
+  ProductDTO result = productService.createProduct(dto);
+  assertNotNull(result.getId());
 }
 ```
+
+</details>
 
 ## 📁 Project Structure
 ```
