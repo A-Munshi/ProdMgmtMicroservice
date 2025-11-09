@@ -54,26 +54,32 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 
 ### Admin Dashboard
 <img width="1366" height="768" alt="adminPrivileges" src="https://github.com/user-attachments/assets/6d12fb1d-69ae-42d8-ba73-58d691a7f3fb" />
+
 **Admin users have full access to CRUD operations**
 
 ### Adding New Products
 <img width="1366" height="768" alt="addingNewProd" src="https://github.com/user-attachments/assets/1faa5802-551b-4ab5-99f8-bf9832fcf47c" />
+
 **Simple form with validation for adding products**
 
 ### Form Validation
 <img width="1366" height="768" alt="notAllowNULL" src="https://github.com/user-attachments/assets/dbbc5bc5-909a-43d8-b53a-64cc5c58bef4" />
+
 **Built-in validation prevents invalid data entry**
 
 ### Update Product
 <img width="1366" height="768" alt="updateProd" src="https://github.com/user-attachments/assets/7dc386c3-765c-4050-aec8-632cf4687f88" />
+
 **Edit existing products with pre-filled forms**
 
 ### Delete Product
 <img width="1366" height="768" alt="delProd" src="https://github.com/user-attachments/assets/372f6df9-e620-4a4b-809b-42ea8bcf8ec9" />
+
 **Confirmation dialog for safe deletion**
 
 ### Search Functionality
 <img width="1366" height="768" alt="searchbyID" src="https://github.com/user-attachments/assets/0efd6197-286b-4fc5-95cc-802ce46a6980" />
+
 **Quick search to find products by ID**
 
 ### Sorting Options
@@ -81,10 +87,12 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 **Sort products alphabetically**
 
 <img width="1366" height="768" alt="sortbyPrice" src="https://github.com/user-attachments/assets/8d0c61e2-3a0e-46ed-901e-415907c61b0c" />
+
 **Sort products by price range**
 
 ### User View
 <img width="1366" height="768" alt="userGeneral" src="https://github.com/user-attachments/assets/76222df8-c55c-4915-bab6-1c2b0dd0b8eb" />
+
 **Regular users can view products but cannot modify**
 
 ## 🛠️ Tech Stack
