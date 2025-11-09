@@ -7,15 +7,15 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 
 
 ## 📋 Table of Contents
-- [Features](#features)
-- [Screenshots](#screenshots)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
 - [Tech Stack](#tech-stack)
 - [Architecture](#architecture)
-- [Getting Started](#getting-started)
-- [API Documentation](#api-documentation)
-- [Security](#security)
-- [Testing](#testing)
-- [Project Structure](#project-structure)
+- [Getting Started](#-getting-started)
+- [API Documentation](#-api-documentation)
+- [Security](#-security)
+- [Testing](#-testing)
+- [Project Structure](#-project-structure)
 
 
 ## ✨ Features
