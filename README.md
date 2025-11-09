@@ -6,20 +6,18 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.7-brightgreen?style=flat-square&logo=spring)
 ![Oracle](https://img.shields.io/badge/Oracle-Database-red?style=flat-square&logo=oracle)
 
----
 
 ## 📋 Table of Contents
 - [Features](#-features)
 - [Screenshots](#-screenshots)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
+- [Tech Stack](#-Tech-stack)
+- [Architecture](#-Architecture)
 - [Getting Started](#-getting-started)
 - [API Documentation](#-api-documentation)
 - [Security](#-security)
 - [Testing](#-testing)
 - [Project Structure](#-project-structure)
 
----
 
 ## ✨ Features
 
@@ -51,50 +49,46 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 - OpenAPI/Swagger documentation
 - Unit and integration tests
 
----
-
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](screenshots/LandingPage.png)
+![Landing Page](<img width="1366" height="768" alt="LandingPage" src="https://github.com/user-attachments/assets/1db4189b-1396-45c5-bd20-efee14c979ad" />)
 *Clean and intuitive landing page with login interface*
 
 ### Admin Dashboard
-![Admin Privileges](screenshots/adminPrivileges.png)
+![Admin Privileges](<img width="1366" height="768" alt="adminPrivileges" src="https://github.com/user-attachments/assets/6d12fb1d-69ae-42d8-ba73-58d691a7f3fb" />)
 *Admin users have full access to CRUD operations*
 
 ### Adding New Products
-![Adding New Product](screenshots/addingNewProd.png)
+![Adding New Product](<img width="1366" height="768" alt="addingNewProd" src="https://github.com/user-attachments/assets/1faa5802-551b-4ab5-99f8-bf9832fcf47c" />)
 *Simple form with validation for adding products*
 
 ### Form Validation
-![Not Allow NULL](screenshots/notAllowNULL.png)
+![Not Allow NULL](<img width="1366" height="768" alt="notAllowNULL" src="https://github.com/user-attachments/assets/dbbc5bc5-909a-43d8-b53a-64cc5c58bef4" />)
 *Built-in validation prevents invalid data entry*
 
 ### Update Product
-![Update Product](screenshots/updateProd.png)
+![Update Product](<img width="1366" height="768" alt="updateProd" src="https://github.com/user-attachments/assets/7dc386c3-765c-4050-aec8-632cf4687f88" />)
 *Edit existing products with pre-filled forms*
 
 ### Delete Product
-![Delete Product](screenshots/delProd.png)
+![Delete Product](<img width="1366" height="768" alt="delProd" src="https://github.com/user-attachments/assets/372f6df9-e620-4a4b-809b-42ea8bcf8ec9" />)
 *Confirmation dialog for safe deletion*
 
 ### Search Functionality
-![Search by ID](screenshots/searchbyID.png)
+![Search by ID](<img width="1366" height="768" alt="searchbyID" src="https://github.com/user-attachments/assets/0efd6197-286b-4fc5-95cc-802ce46a6980" />)
 *Quick search to find products by ID*
 
 ### Sorting Options
-![Sort by Name](screenshots/sortByName.png)
+![Sort by Name](<img width="1366" height="768" alt="sortByName" src="https://github.com/user-attachments/assets/597af8f3-0968-4ec1-9bf2-da552a76caf5" />)
 *Sort products alphabetically*
 
-![Sort by Price](screenshots/sortbyPrice.png)
+![Sort by Price](<img width="1366" height="768" alt="sortbyPrice" src="https://github.com/user-attachments/assets/8d0c61e2-3a0e-46ed-901e-415907c61b0c" />)
 *Sort products by price range*
 
 ### User View
-![User General](screenshots/userGeneral.png)
+![User General](<img width="1366" height="768" alt="userGeneral" src="https://github.com/user-attachments/assets/76222df8-c55c-4915-bab6-1c2b0dd0b8eb" />)
 *Regular users can view products but cannot modify*
-
----
 
 ## 🛠️ Tech Stack
 
@@ -119,7 +113,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 - **Mockito** - Mocking framework
 - **Spring Security Test** - Security testing
 
----
 
 ## 🏗️ Architecture
 
@@ -162,7 +155,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 - **Dependency Injection** - Loose coupling
 - **Builder Pattern** - User creation in security config
 
----
 
 ## 🚀 Getting Started
 
@@ -227,7 +219,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 | Admin | `admin`  | `admin123`| Full CRUD   |
 | User  | `user`   | `user123` | Read-only   |
 
----
 
 ## 📚 API Documentation
 
@@ -273,8 +264,6 @@ Content-Type: application/json
 ### Interactive API Documentation
 Visit http://localhost:8080/swagger-ui.html for interactive API testing with Swagger UI.
 
----
-
 ## 🔒 Security
 
 ### Authentication
@@ -296,7 +285,6 @@ Visit http://localhost:8080/swagger-ui.html for interactive API testing with Swa
 - ⚠️ Add CORS configuration
 - ⚠️ Enable CSRF protection
 
----
 
 ## 🧪 Testing
 
@@ -328,8 +316,6 @@ void testCreateProduct() {
     assertEquals("Test Product", result.getName());
 }
 ```
-
----
 
 ## 📁 Project Structure
 
@@ -372,15 +358,11 @@ ProdMgmtMicroservice/
 └── README.md
 ```
 
----
-
 ## 👤 Author
 
 **Anuvab Munshi**
 - GitHub: [A-Munshi](https://github.com/A-Munshi)
 - LinkedIn: [Anuvab Munshi](www.linkedin.com/in/anuvab-munshi)
-
----
 
 <div align="center">
   <p>⭐ Star this repository if you find it helpful!</p>
