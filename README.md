@@ -5,7 +5,6 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 ![Java](https://img.shields.io/badge/Java-25-orange?style=flat-square&logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.7-brightgreen?style=flat-square&logo=spring)
 ![Oracle](https://img.shields.io/badge/Oracle-Database-red?style=flat-square&logo=oracle)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
 ---
 
@@ -198,10 +197,10 @@ A full-stack enterprise-grade product management system built with Spring Boot a
    ```sql
    CREATE TABLE products (
        id NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-       name VARCHAR2(255) NOT NULL,
-       sku VARCHAR2(255) NOT NULL UNIQUE,
-       description VARCHAR2(1000),
-       price NUMBER(19,2),
+       name VARCHAR2(30) NOT NULL,
+       sku VARCHAR2(30) NOT NULL UNIQUE,
+       description VARCHAR2(100),
+       price NUMBER(10,2),
        quantity NUMBER(10)
    );
    ```
@@ -375,47 +374,11 @@ ProdMgmtMicroservice/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-
----
-
-## 🙏 Acknowledgments
-
-- Spring Boot team for the excellent framework
-- Oracle for the robust database system
-- OpenAPI for API documentation standards
-
----
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-1. Check the [Issues](https://github.com/yourusername/ProdMgmtMicroservice/issues) page
-2. Review the [API Documentation](#-api-documentation)
-3. Check browser console (F12) for frontend errors
-4. Review Spring Boot logs for backend errors
+**Anuvab Munshi**
+- GitHub: [A-Munshi](https://github.com/A-Munshi)
+- LinkedIn: [Anuvab Munshi](www.linkedin.com/in/anuvab-munshi)
 
 ---
 
