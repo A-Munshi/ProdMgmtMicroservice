@@ -6,11 +6,16 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 ![Oracle](https://img.shields.io/badge/Oracle-Database-red?style=flat-square&logo=oracle)
 
 ## 📋 Table of Contents
-- [Features](#-features)                    - [API Documentation](#-api-documentation)
-- [Screenshots](#-screenshots)              - [Security](#-security)
-- [Tech Stack](#tech-stack)                 - [Testing](#-testing)
-- [Architecture](#architecture)             - [Project Structure](#-project-structure)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
 - [Getting Started](#-getting-started)
+- [API Documentation](#-api-documentation)
+- [Security](#-security)
+- [Testing](#-testing)
+- [Project Structure](#-project-structure)
+
 
 ## ✨ Features
 - **Role-Based Access Control** — Admin (CRUD) & User (Read-only)
