@@ -50,6 +50,7 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 ## 📸 Screenshots
 ### Landing Page
 <img width="1366" height="768" alt="LandingPage" src="https://github.com/user-attachments/assets/1db4189b-1396-45c5-bd20-efee14c979ad" />
+
 **Clean and intuitive landing page with login interface**
 
 ### Admin Dashboard
@@ -84,6 +85,7 @@ A full-stack enterprise-grade product management system built with Spring Boot a
 
 ### Sorting Options
 <img width="1366" height="768" alt="sortByName" src="https://github.com/user-attachments/assets/597af8f3-0968-4ec1-9bf2-da552a76caf5" />
+
 **Sort products alphabetically**
 
 <img width="1366" height="768" alt="sortbyPrice" src="https://github.com/user-attachments/assets/8d0c61e2-3a0e-46ed-901e-415907c61b0c" />
