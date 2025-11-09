@@ -5,18 +5,24 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.7-brightgreen?style=flat-square&logo=spring)
 ![Oracle](https://img.shields.io/badge/Oracle-Database-red?style=flat-square&logo=oracle)
 
-
 ## 📋 Table of Contents
-- [Features](#-features)
-- [Screenshots](#-screenshots)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Getting Started](#-getting-started)
-- [API Documentation](#-api-documentation)
-- [Security](#-security)
-- [Testing](#-testing)
-- [Project Structure](#-project-structure)
 
+<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+<div style="width: 48%;">
+- <a href="#features" style="text-decoration:none;">✨ Features</a>  
+- <a href="#screenshots" style="text-decoration:none;">📸 Screenshots</a>  
+- <a href="#tech-stack" style="text-decoration:none;">🛠️ Tech Stack</a>  
+- <a href="#architecture" style="text-decoration:none;">🏗️ Architecture</a>  
+- <a href="#getting-started" style="text-decoration:none;">🚀 Getting Started</a>  
+</div>
+
+<div style="width: 48%;">
+- <a href="#api-documentation" style="text-decoration:none;">📚 API Documentation</a>  
+- <a href="#security" style="text-decoration:none;">🔒 Security</a>  
+- <a href="#testing" style="text-decoration:none;">🧪 Testing</a>  
+- <a href="#project-structure" style="text-decoration:none;">📁 Project Structure</a>  
+</div>
+</div>
 
 ## ✨ Features
 - **Role-Based Access Control** — Admin (CRUD) & User (Read-only)
