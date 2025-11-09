@@ -156,29 +156,9 @@ Content-Type: application/json
 ```
 > For interactive testing open: `http://localhost:8080/swagger-ui/index.html`. Full request/response specs are available there.
 
-### Interactive API Documentation
-Visit http://localhost:8080/swagger-ui.html for interactive API testing with Swagger UI.
-
 ## 🔒 Security
-### Authentication
-- **HTTP Basic Authentication** for quick development
-- Credentials encoded with BCrypt
-- In-memory user store (easily replaceable with database)
-
-### Authorization
-- Method-level security with `@PreAuthorize`
-- Role-based access control (RBAC)
-- ADMIN role for write operations
-- USER role for read operations
-
-### Production Recommendations
-- ⚠️ Replace Basic Auth with JWT tokens
-- ⚠️ Use HTTPS in production
-- ⚠️ Store users in database
-- ⚠️ Implement rate limiting
-- ⚠️ Add CORS configuration
-- ⚠️ Enable CSRF protection
-
+- **Dev authentication**: HTTP Basic with in-memory users (admin/user).
+- **Prod recommendation**: Replace with JWT or OAuth2, use HTTPS, store users safely and enable CSRF/CORS controls.
 
 ## 🧪 Testing
 
