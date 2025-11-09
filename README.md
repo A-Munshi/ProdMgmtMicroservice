@@ -29,13 +29,13 @@ An enterprise-grade full-stack **Product Management System** built with **Spring
 
 
 ## 📸 Screenshots
-| Landing | Admin | Add Product | Validation | Update |
-|----------|--------|-------------|-------------|---------|
-| ![Landing](https://github.com/user-attachments/assets/1db4189b-1396-45c5-bd20-efee14c979ad) | ![Admin](https://github.com/user-attachments/assets/6d12fb1d-69ae-42d8-ba73-58d691a7f3fb) | ![Add](https://github.com/user-attachments/assets/1faa5802-551b-4ab5-99f8-bf9832fcf47c) | ![Validation](https://github.com/user-attachments/assets/dbbc5bc5-909a-43d8-b53a-64cc5c58bef4) | ![Update](https://github.com/user-attachments/assets/7dc386c3-765c-4050-aec8-632cf4687f88) |
-
-| Delete | Search | Sort (Name) | Sort (Price) | User |
-|----------|--------|-------------|-------------|---------|
-| ![Del](https://github.com/user-attachments/assets/372f6df9-e620-4a4b-809b-42ea8bcf8ec9) | ![Search](https://github.com/user-attachments/assets/0efd6197-286b-4fc5-95cc-802ce46a6980) | ![Sort Name](https://github.com/user-attachments/assets/597af8f3-0968-4ec1-9bf2-da552a76caf5) | ![Sort Price](https://github.com/user-attachments/assets/8d0c61e2-3a0e-46ed-901e-415907c61b0c) | ![User](https://github.com/user-attachments/assets/76222df8-c55c-4915-bab6-1c2b0dd0b8eb) |
+| Column 1 | Column 2 |
+|---|---|
+| **Landing Page**<br>![LandingPage](<img width="1366" height="768" alt="LandingPage" src="https://github.com/user-attachments/assets/1d3b096c-a5fe-468b-a44d-8684a9eacb94" />) | **Admin Dashboard**<br>![Admin](<img width="1366" height="768" alt="adminPrivileges" src="https://github.com/user-attachments/assets/42872df9-24ec-41d9-81e0-7a3ec0d88d77" />) |
+| **Add Product**<br>![Add](<img width="1366" height="768" alt="addingNewProd" src="https://github.com/user-attachments/assets/71e36cd4-88ff-451d-8c68-05dfaf0a09da" />) | **Form Validation**<br>![Validation](<img width="1366" height="768" alt="notAllowNULL" src="https://github.com/user-attachments/assets/db0a1150-0c0a-46d8-812a-033f05968633" />) |
+| **Update Product**<br>![Update](<img width="1366" height="768" alt="updateProd" src="https://github.com/user-attachments/assets/c80ee51e-f97d-4d74-ad26-19f58208e50d" />) | **Delete Product**<br>![Delete](<img width="1366" height="768" alt="delProd" src="https://github.com/user-attachments/assets/7ffc1b6f-a5ad-4435-be1e-42548962de10" />) |
+| **Search by ID**<br>![Search](<img width="1366" height="768" alt="searchbyID" src="https://github.com/user-attachments/assets/7787ebbe-6927-4ac9-b696-2a8dc2b7722c" />) | **Sort by Name**<br>![SortName](<img width="1366" height="768" alt="sortByName" src="https://github.com/user-attachments/assets/6d058f12-f8b0-4dfc-aaa1-9b60e2a97ac1" />) |
+| **Sort by Price**<br>![SortPrice](<img width="1366" height="768" alt="sortbyPrice" src="https://github.com/user-attachments/assets/88436c94-2e02-4f96-ae90-69859904f3cc" />) | **User View**<br>![User](<img width="1366" height="768" alt="userGeneral" src="https://github.com/user-attachments/assets/47639d1f-1a86-4570-bb1a-5da859988c2a" />) |
 
 ## 🛠️ Tech Stack
 | Layer | Technology |
@@ -242,29 +242,30 @@ void testCreateProduct() {
 
 ## 📁 Project Structure
 ```
-ProdMgmtMicroservice/src/
-├── main/
-│   ├── java/com/example/prodservice/
-│   │   ├── config/                      # Security & Swagger configs
-│   │   ├── controller/                  # REST endpoints
-│   │   ├── dto/                         # Data Transfer Objects
-│   │   ├── exception/                   # Global exception handling
-│   │   ├── model/                       # JPA Entities
-│   │   ├── repository/                  # DAO Layer
-│   │   ├── service/                     # Business Logic
-│   │   └── ProdServiceApplication.java  # Main application
-│   └── resources/static/                # Frontend (HTML, CSS, JS)
-│       ├── application.yml              # Configuration
-│       └── data.sql                     # Sample data
-└── test/                                # Testing
-├── pom.xml                              # Maven dependencies
+ProdMgmtMicroservice/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/prodservice/
+│   │   │   ├── config/                      # Security & Swagger configs
+│   │   │   ├── controller/                  # REST endpoints
+│   │   │   ├── dto/                         # Data Transfer Objects
+│   │   │   ├── exception/                   # Global exception handling
+│   │   │   ├── model/                       # JPA Entities
+│   │   │   ├── repository/                  # DAO Layer
+│   │   │   ├── service/                     # Business Logic
+│   │   │   └── ProdServiceApplication.java  # Main application
+│   │   └── resources/static/                # Frontend (HTML, CSS, JS)
+│   │       ├── application.yml              # Configuration
+│   │       └── data.sql                     # Sample data
+│   └── test/                                # Testing
+├── pom.xml                                  # Maven dependencies
 └── README.md
 ```
 
 ## 👤 Author
 **Anuvab Munshi**
 - GitHub: [A-Munshi](https://github.com/A-Munshi)
-- LinkedIn: [Anuvab Munshi](www.linkedin.com/in/anuvab-munshi)
+- LinkedIn: [Anuvab Munshi](https://www.linkedin.com/in/anuvab-munshi)
 
 <div align="center">
   <p>⭐ Star this repository if you find it helpful!</p>
